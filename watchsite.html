@@ -7,12 +7,55 @@
 <body>
 
 <div id='header'>
-	<div class='buttons' onclick=''>Aadam</div>
-	<div class='buttons'>Aadam&Anesa</div>
-	<div class='buttons'>Anas</div>
-	<div class='buttons'>Bilaal</div>
-	<div class='buttons'>Sofyan</div>
+	<div class='buttons' id='aadamjs'>Aadam</div>
+	<div class='buttons' id='a&ajs'>Aadam&Anesa</div>
+	<div class='buttons' id='anasjs'>Anas</div>
+	<div class='buttons' id='bilaaljs'>Bilaal</div>
+	<div class='buttons' id='sofyanjs'>Sofyan</div>
 </div>
+
+<script>
+		var button1 = document.getElementById('aadamjs');
+		var button2 = document.getElementById('a&ajs');
+		var button3 = document.getElementById('anasjs');
+		var button4 = document.getElementById('bilaaljs');
+		var button5 = document.getElementById('sofyanjs');
+		var script = document.getElementById('timer_script');
+
+		button1.addEventListener('click', handler1, false);
+		button2.addEventListener('click', handler2, false);
+		button3.addEventListener('click', handler3, false);
+		button4.addEventListener('click', handler4, false);
+		button5.addEventListener('click', handler5, false);
+
+		function handler1() {
+			script.src = 'js/aadam.js';
+			console.log(script);
+		};
+
+		function handler2() {
+			script.src = 'js/aadam&anesa.js';
+			console.log(script);
+		};
+
+		function handler3() {
+			script.src = 'js/anas.js';
+			console.log(script);
+		};
+
+		function handler4() {
+			script.src = 'js/bilaal.js';
+			console.log(script);
+		};
+
+		function handler5() {
+			script.src = 'js/sofyan.js';
+			console.log(script);
+		};
+
+</script>
+
+<script id='timer_script'></script>
 
 <div class='title'>
 	<h1 class='title_text'>Time since </h1>
@@ -39,8 +82,6 @@
 		<p id='secs_text' class='secs_text'>--</p>
 	</div>
 </div>
-
-<script src='js/sofyan.js'></script>
 
 <div class='data'>
 	<div class='rem_div'>
