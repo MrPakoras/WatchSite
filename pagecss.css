@@ -1,0 +1,129 @@
+:root{
+	--purple-main: #3b2b7d;
+	--purple-dark: #1d1c2c;
+	--purple-light: #d7ceff;
+	--purple-highlight: #8d73ff;
+}
+
+body{
+	background-color: var(--purple-dark);
+	font-family: 'Calibri';
+}
+
+p, h1, a{
+	color: var(--purple-light);
+}
+
+#header{
+	width: 100%;
+/*	height: 60px;*/
+	background-color: var(--purple-main);
+	border-radius: 5px;
+	display: inline-block;
+	align-items: center;
+	text-align: center;
+}
+
+.buttons{
+	background-color: var(--purple-highlight);
+	border: solid 2px var(--purple-dark);
+	border-radius: 20px;
+	border-width: 2px;
+	width: 100px;
+	padding: 10px;
+	margin: 10px;
+	display: inline-block;
+	align-items: center;
+	text-align: center;
+	user-select: none;
+}
+
+.buttons:hover{
+	filter: brightness(85%);
+}
+
+.buttons:active{
+	filter: brightness(70%);
+}
+
+
+.title{
+	text-align: center;
+}
+
+.title_text{
+	display: inline-block;
+}
+
+.timer_container{
+	height: 20%;
+	border-radius: 5px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 10px;
+	background-color: var(--purple-main);
+	font-size: 40px;
+	text-align: center;
+}
+
+.days_div,.hours_div,.mins_div,.secs_div,.colon_div{
+	background-color: var(--purple-highlight);
+	border-radius: 10px;
+	border: solid 2px var(--purple-dark);
+	display: inline-flex;
+	align-items: center;
+	height: 60px;
+	width: 60px;
+	text-align: center;
+	margin-right: 10px;
+	margin: none;
+	padding: 10px;
+
+}
+
+.days_text,.hours_text,.mins_text,.secs_text,.colon_text{
+	display: block;
+	margin: auto;
+	vertical-align: center;
+
+}
+
+.data{
+	width: 100%;
+	display: inline-flex;
+}
+
+.rem_div,.est_div,.est_date_div,.tss_div{
+	background-color: var(--purple-main);
+	width: 48%;
+	margin: 5px;
+	border: solid 1px var(--purple-light);
+	border-radius: 5px;
+	padding: 10px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.image{
+	background-color: #101010;
+	padding: 10px;
+	margin-top: 10px; 
+	margin-bottom: 10px;
+	border-radius: 5px;
+	text-align: center;
+	font-style: italic;
+}
+
+.image .meme{
+	display: block;
+	height: 450px;
+	margin: auto;
+}
+
+
+.progbar{
+	background-color: var(--purple-main);
+	text-align: center;
+	padding: 10px;
+	border-radius: 5px;
+}
