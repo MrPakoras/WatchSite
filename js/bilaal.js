@@ -1,12 +1,12 @@
 document.getElementById('username').innerHTML = '\xa0' + 'Bilaal' + '\xa0';
 document.getElementById('anime_name').innerHTML = '\xa0' + 'One Piece' + '\xa0';
 
-let root = document.documentElement;
-root.style.setProperty('--colour_main','#0f4335');
-root.style.setProperty('--colour_dark','#061612');
-root.style.setProperty('--colour_light','#6af4ba');
-root.style.setProperty('--colour_highlight','#00ff91');
-root.style.setProperty('--colour_text','#6af4ba');
+// let root = document.documentElement;
+// root.style.setProperty('--colour_main','#0f4335');
+// root.style.setProperty('--colour_dark','#061612');
+// root.style.setProperty('--colour_light','#6af4ba');
+// root.style.setProperty('--colour_highlight','#00ff91');
+// root.style.setProperty('--colour_text','#6af4ba');
 
 var start_date = new Date('03/24/2021').getTime(); // Edit this
 var init_start_date = new Date('Apr 15 2020').getTime();
