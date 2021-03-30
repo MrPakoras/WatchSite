@@ -1,7 +1,7 @@
 document.getElementById('username').innerHTML = '\xa0' + 'Sofyan' + '\xa0';
 document.getElementById('anime_name').innerHTML = '\xa0' + 'Naruto Shippuden' + '\xa0';
 
-let root = document.documntElement;
+let root = document.documentElement;
 root.style.setProperty('--colour_main','#004160');
 root.style.setProperty('--colour_dark','#001824');
 root.style.setProperty('--colour_light','#0095DB');
