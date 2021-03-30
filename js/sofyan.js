@@ -1,12 +1,12 @@
 document.getElementById('username').innerHTML = '\xa0' + 'Sofyan' + '\xa0';
 document.getElementById('anime_name').innerHTML = '\xa0' + 'Naruto Shippuden' + '\xa0';
 
-let root = document.documentElement;
-root.style.setProperty('--colour_main','#004160');
-root.style.setProperty('--colour_dark','#001824');
-root.style.setProperty('--colour_light','#0095DB');
-root.style.setProperty('--colour_highlight','#ffa000');
-root.style.setProperty('--colour_text','#ffa000');
+// let root = document.documentElement;
+// root.style.setProperty('--colour_main','#004160');
+// root.style.setProperty('--colour_dark','#001824');
+// root.style.setProperty('--colour_light','#0095DB');
+// root.style.setProperty('--colour_highlight','#ffa000');
+// root.style.setProperty('--colour_text','#ffa000');
 
 
 var start_date = new Date('03/26/2021').getTime(); // Edit this
