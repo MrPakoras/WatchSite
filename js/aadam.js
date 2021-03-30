@@ -1,5 +1,5 @@
 document.getElementById('username').innerHTML = '\xa0' + 'Aadam' + '\xa0';
-document.getElementById('anime_name').innerHTML = '\xa0' + 'One Piece' + '\xa0';
+document.getElementById('anime_name').innerHTML = '\xa0' + 'Megalo Box' + '\xa0';
 
 // let root = document.documentElement;
 // root.style.setProperty('--colour_main','#3b2b7d');
