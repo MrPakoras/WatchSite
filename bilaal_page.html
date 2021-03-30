@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<link rel='stylesheet' type='text/css' href='pagecss.css'>
+<link rel="shortcut icon" href="https://cdn.myanimelist.net/images/userimages/6643756.jpg" />
+<title>WatchLogs</title>
+
+<body>
+
+<div id='header'>
+	<div class='buttons' id='aadamjs' onclick="window.location='aadam_page.html'">Aadam</div>
+	<div class='buttons' id='aaajs' onclick="window.location='aaa_page.html'">Aadam&Anesa</div>
+	<div class='buttons' id='anasjs' onclick="window.location='anas_page.html'">Anas</div>
+	<div class='buttons' id='bilaaljs' onclick="window.location='bilaal_page.html'">Bilaal</div>
+	<div class='buttons' id='sofyanjs' onclick="window.location='sofyan_page.html'">Sofyan</div>
+</div>
+
+<div class='title'>
+	<h1 class='title_text'>Time since </h1>
+	<h1 class='title_text' id='username'>-</h1>
+	<h1 class='title_text'> watched episode </h1>
+	<h1 class='title_text' id='eps_watched_text'>-</h1>
+	<h1 class='title_text'> of </h1>
+	<h1 class='title_text' id='anime_name'>-</h1>
+</div>
+
+<div class='timer_container'>
+	<div class='days_div'>
+		<p id='days_text' class='days_text'>--</p>
+	</div>
+	<div class='hours_div'>	
+		<p id='hours_text' class='hours_text'>--</p>
+	</div> 
+	<div class='colon_div'><p class='colon_text'> : </p></div>
+	<div class='mins_div'>
+		<p id='mins_text' class='mins_text'>--</p>
+	</div>
+	<div class='colon_div'><p class='colon_text'> : </p></div>
+	<div class='secs_div'>
+		<p id='secs_text' class='secs_text'>--</p>
+	</div>
+</div>
+
+<div class='data'>
+	<div class='rem_div'>
+		<a>Episodes Remaining: </a>
+		<a id='eps_rem'></a><br>
+	</div>
+	<div class='est_div'>
+		<a>Estimated Time Until Finish: </a>
+		<a id='finish_time'></a>
+	</div>
+	<br>
+	<div class='est_date_div'>
+		<a>Estimated Finish Date: </a>
+		<a id='finish_date_str'></a>
+	</div>
+	<div class='tss_div'>
+		<a>Time since start:</a>
+		<a id='tss'></a>
+	</div>
+</div>
+
+<div class='image'>
+	<img src='memes/bilaal_meme.jpg' id='meme'>
+	<p id='meme_caption'></p>
+</div>
+
+<div class='progbar'>
+	<h1>Progress Bar</h1>
+	<img src='pbs/bilaal_pb.png' id='progbar_img'>
+	<br>
+	<a id='perc_complete_text'></a>
+</div>
+
+
+
+
+<!-- Javascript -->
+
+<script src='js/bilaal.js'></script>
+
+<script>
+let root = document.documentElement;
+root.style.setProperty('--colour_main','#0f4335');
+root.style.setProperty('--colour_dark','#061612');
+root.style.setProperty('--colour_light','#6af4ba');
+root.style.setProperty('--colour_highlight','#00ff91');
+root.style.setProperty('--colour_text','#6af4ba');
+</script>
+
+
+<script>
+	document.getElementById('eps_rem').innerHTML = eps_rem
+
+	var perc_complete = ((eps_watched/eps_total)*100).toFixed(2); // rounds to 2 decimal places
+	document.getElementById('perc_complete_text').innerHTML = 'Completion: '+perc_complete+'%';
+</script>
+
+</body>
+</html>
