@@ -1,5 +1,5 @@
-document.getElementById('username').innerHTML = 'Sofyan';
-document.getElementById('anime_name').innerHTML = 'Naruto Shippuden';
+document.getElementById('username').innerHTML = '\xa0' + 'Sofyan' + '\xa0';
+document.getElementById('anime_name').innerHTML = '\xa0' + 'Naruto Shippuden' + '\xa0';
 
 var start_date = new Date('03/26/2021').getTime(); // Edit this
 var init_start_date = new Date('Feb 28 2021').getTime();

@@ -1,5 +1,5 @@
-document.getElementById('username').innerHTML = 'Aadam';
-document.getElementById('anime_name').innerHTML = 'One Piece';
+document.getElementById('username').innerHTML = '\xa0' + 'Aadam' + '\xa0';
+document.getElementById('anime_name').innerHTML = '\xa0' + 'One Piece' + '\xa0';
 
 var start_date = new Date('02/02/2021').getTime(); // Edit this
 var init_start_date = new Date('Jan 01 2021').getTime();
