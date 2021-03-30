@@ -68,9 +68,9 @@ p, h1, a{
 }
 
 .days_div,.hours_div,.mins_div,.secs_div,.colon_div{
-	background-color: var(--colour_highlight);
+	background-color: var(--colour_dark);
 	border-radius: 10px;
-	border: solid 2px var(--colour_dark);
+	border: solid 2px var(--colour_highlight);
 	display: inline-flex;
 	align-items: center;
 	height: 60px;
