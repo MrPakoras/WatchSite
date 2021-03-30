@@ -1,6 +1,13 @@
 document.getElementById('username').innerHTML = '\xa0' + 'Anas' + '\xa0';
 document.getElementById('anime_name').innerHTML = '\xa0' + 'Payitaht Abdülhamid' + '\xa0';
 
+let root = document.documentElement;
+root.style.setProperty('--colour_main','#830019');
+root.style.setProperty('--colour_dark','#1b0005');
+root.style.setProperty('--colour_light','#DC0029');
+root.style.setProperty('--colour_highlight','#ffa000');
+root.style.setProperty('--colour_text','#ffa000');
+
 var start_date = new Date('12/04/2020').getTime(); // Edit this
 var init_start_date = new Date('Nov 16 2020').getTime();
 
