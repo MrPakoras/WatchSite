@@ -63,13 +63,13 @@
 </div>
 
 <div class='image'>
-	<img src='bkg.gif' class='meme'>
+	<img src='bkg.gif' id='meme'>
 	<p id='meme_caption'></p>
 </div>
 
 <div class='progbar'>
 	<h1>Progress Bar</h1>
-	<img src='progress_bar.png' >
+	<img src='progress_bar.png' id='progbar_img'>
 	<a id='perc_complete_text'></a>
 </div>
 
@@ -106,6 +106,8 @@ $(document).ready(function(){
 		root.style.setProperty('--colour_light','#d7ceff');
 		root.style.setProperty('--colour_highlight','#8d73ff');
 		root.style.setProperty('--colour_text','#d7ceff');
+		document.getElementById('meme').src = 'memes/aadam_meme.jpg';
+		document.getElementById('progbar_img').src = 'pbs/aadam_pb.png';
 	});
 	$('#aaajs').click(function(){
 		$.getScript( "js/aaa.js", function( data, textStatus, jqxhr ) {
@@ -120,6 +122,8 @@ $(document).ready(function(){
 		root.style.setProperty('--colour_light','#d7ceff');
 		root.style.setProperty('--colour_highlight','#8d73ff');
 		root.style.setProperty('--colour_text','#d7ceff');
+		document.getElementById('meme').src = 'memes/aaa_meme.jpg';
+		document.getElementById('progbar_img').src = 'pbs/aaa_pb.png';
 	});
 	$('#anasjs').click(function(){
 		$.getScript( "js/anas.js", function( data, textStatus, jqxhr ) {
@@ -134,6 +138,8 @@ $(document).ready(function(){
 		root.style.setProperty('--colour_light','#DC0029');
 		root.style.setProperty('--colour_highlight','#ffa000');
 		root.style.setProperty('--colour_text','#ffa000');
+		document.getElementById('meme').src = 'memes/anas_meme.jpg';
+		document.getElementById('progbar_img').src = 'pbs/anas_pb.png';
 	});
 	$('#bilaaljs').click(function(){
 		$.getScript( "js/bilaal.js", function( data, textStatus, jqxhr ) {
@@ -148,6 +154,8 @@ $(document).ready(function(){
 		root.style.setProperty('--colour_light','#6af4ba');
 		root.style.setProperty('--colour_highlight','#00ff91');
 		root.style.setProperty('--colour_text','#6af4ba');
+		document.getElementById('meme').src = 'memes/bilaal_meme.jpg';
+		document.getElementById('progbar_img').src = 'pbs/bilaal_pb.png';
 	});
 	$('#sofyanjs').click(function(){
 		$.getScript( "js/sofyan.js", function( data, textStatus, jqxhr ) {
@@ -162,6 +170,8 @@ $(document).ready(function(){
 		root.style.setProperty('--colour_light','#0095DB');
 		root.style.setProperty('--colour_highlight','#ffa000');
 		root.style.setProperty('--colour_text','#ffa000');
+		document.getElementById('meme').src = 'memes/sofyan_meme.gif';
+		document.getElementById('progbar_img').src = 'pbs/sofyan_pb.png';
 	});
 });
 </script>

@@ -115,14 +115,14 @@ p, h1, a{
 	font-style: italic;
 }
 
-.image .meme{
+#meme{
 	display: block;
 	height: 450px;
 	margin: auto;
 }
 
 
-.progbar{
+#progbar{
 	background-color: var(--colour_main);
 	text-align: center;
 	padding: 10px;
