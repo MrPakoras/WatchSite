@@ -141,7 +141,7 @@
 <script>
 $(document).ready(function(){
 	$('#aadamjs').click(function(){
-		$('#username').html('Aadam');
+		// $('#username').html('Aadam');
 		// $(window).load("js/sofyan.js");
 		// $.getScript("./js/sofyan.js");
 		$.getScript( "js/aadam.js", function( data, textStatus, jqxhr ) {
@@ -152,7 +152,6 @@ $(document).ready(function(){
 		});
 	});
 	$('#aaajs').click(function(){
-		$('#username').html('Aadam & Anesa');
 		$.getScript( "js/aaa.js", function( data, textStatus, jqxhr ) {
 			console.log( data ); // Data returned
 			console.log( textStatus ); // Success

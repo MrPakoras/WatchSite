@@ -1,3 +1,6 @@
+document.getElementById('username').innerHTML = 'Anas';
+document.getElementById('anime_name').innerHTML = 'Payitaht Abdülhamid';
+
 var start_date = new Date('12/04/2020').getTime(); // Edit this
 var init_start_date = new Date('Nov 16 2020').getTime();
 

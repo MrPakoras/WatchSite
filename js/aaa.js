@@ -1,3 +1,6 @@
+document.getElementById('username').innerHTML = 'Aadam & Anesa';
+document.getElementById('anime_name').innerHTML = 'One Piece';
+
 var start_date = new Date('01/22/2021').getTime(); // Edit this
 var init_start_date = new Date('Jan 21 2021').getTime();
 

@@ -1,3 +1,6 @@
+document.getElementById('username').innerHTML = 'Bilaal';
+document.getElementById('anime_name').innerHTML = 'One Piece';
+
 var start_date = new Date('03/24/2021').getTime(); // Edit this
 var init_start_date = new Date('Apr 15 2020').getTime();
 
