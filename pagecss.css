@@ -1,23 +1,24 @@
 :root{
-	--purple-main: #3b2b7d;
-	--purple-dark: #1d1c2c;
-	--purple-light: #d7ceff;
-	--purple-highlight: #8d73ff;
+	--colour_main: #3b2b7d;
+	--colour_dark: #1d1c2c;
+	--colour_light: #d7ceff;
+	--colour_highlight: #8d73ff;
+	--colour_text: #d7ceff;
 }
 
 body{
-	background-color: var(--purple-dark);
+	background-color: var(--colour_dark);
 	font-family: 'Calibri';
 }
 
 p, h1, a{
-	color: var(--purple-light);
+	color: var(--colour_text);
 }
 
 #header{
 	width: 100%;
 /*	height: 60px;*/
-	background-color: var(--purple-main);
+	background-color: var(--colour_main);
 	border-radius: 5px;
 	display: inline-block;
 	align-items: center;
@@ -25,8 +26,8 @@ p, h1, a{
 }
 
 .buttons{
-	background-color: var(--purple-highlight);
-	border: solid 2px var(--purple-dark);
+	background-color: var(--colour_highlight);
+	border: solid 2px var(--colour_dark);
 	border-radius: 20px;
 	border-width: 2px;
 	width: 100px;
@@ -61,15 +62,15 @@ p, h1, a{
 	margin-top: 10px;
 	margin-bottom: 10px;
 	padding: 10px;
-	background-color: var(--purple-main);
+	background-color: var(--colour_main);
 	font-size: 40px;
 	text-align: center;
 }
 
 .days_div,.hours_div,.mins_div,.secs_div,.colon_div{
-	background-color: var(--purple-highlight);
+	background-color: var(--colour_highlight);
 	border-radius: 10px;
-	border: solid 2px var(--purple-dark);
+	border: solid 2px var(--colour_dark);
 	display: inline-flex;
 	align-items: center;
 	height: 60px;
@@ -94,10 +95,10 @@ p, h1, a{
 }
 
 .rem_div,.est_div,.est_date_div,.tss_div{
-	background-color: var(--purple-main);
+	background-color: var(--colour_main);
 	width: 48%;
 	margin: 5px;
-	border: solid 1px var(--purple-light);
+	border: solid 1px var(--colour_light);
 	border-radius: 5px;
 	padding: 10px;
 	text-align: center;
@@ -122,7 +123,7 @@ p, h1, a{
 
 
 .progbar{
-	background-color: var(--purple-main);
+	background-color: var(--colour_main);
 	text-align: center;
 	padding: 10px;
 	border-radius: 5px;
