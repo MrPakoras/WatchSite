@@ -8,19 +8,11 @@
 
 <div id='header'>
 	<div class='buttons' id='aadamjs'>Aadam</div>
-	<div class='buttons' id='a&ajs'>Aadam&Anesa</div>
+	<div class='buttons' id='aaajs'>Aadam&Anesa</div>
 	<div class='buttons' id='anasjs'>Anas</div>
 	<div class='buttons' id='bilaaljs'>Bilaal</div>
 	<div class='buttons' id='sofyanjs'>Sofyan</div>
 </div>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js">
-	$('#sofyanjs').click(function(){
-		$('#username').html('Sofyan');
-	});
-
-
-</script>
 
 <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
 	$('#sofyanjs').click(function(){
@@ -120,10 +112,6 @@
 	</div>
 </div>
 
-<script>
-document.getElementById('eps_rem').innerHTML = eps_rem
-</script>
-
 <div class='image'>
 	<img src='bkg.gif' class='meme'>
 	<p id='meme_caption'></p>
@@ -135,13 +123,72 @@ document.getElementById('eps_rem').innerHTML = eps_rem
 	<a id='perc_complete_text'></a>
 </div>
 
+
+
+
+<!-- Javascript -->
+
 <script>
+	document.getElementById('eps_rem').innerHTML = eps_rem
+
 	var perc_complete = ((eps_watched/eps_total)*100).toFixed(2); // rounds to 2 decimal places
 	document.getElementById('perc_complete_text').innerHTML = 'Completion: '+perc_complete+'%';
 </script>
 
+<!-- <script src='js/sofyan.js'></script> -->
 
-
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+	$('#aadamjs').click(function(){
+		$('#username').html('Aadam');
+		// $(window).load("js/sofyan.js");
+		// $.getScript("./js/sofyan.js");
+		$.getScript( "js/aadam.js", function( data, textStatus, jqxhr ) {
+			console.log( data ); // Data returned
+			console.log( textStatus ); // Success
+			console.log( jqxhr.status ); // 200
+			console.log( "Load was performed." );
+		});
+	});
+	$('#aaajs').click(function(){
+		$('#username').html('Aadam & Anesa');
+		$.getScript( "js/aaa.js", function( data, textStatus, jqxhr ) {
+			console.log( data ); // Data returned
+			console.log( textStatus ); // Success
+			console.log( jqxhr.status ); // 200
+			console.log( "Load was performed." );
+		});
+	});
+	$('#anasjs').click(function(){
+		$('#username').html('Anas');
+		$.getScript( "js/anas.js", function( data, textStatus, jqxhr ) {
+			console.log( data ); // Data returned
+			console.log( textStatus ); // Success
+			console.log( jqxhr.status ); // 200
+			console.log( "Load was performed." );
+		});
+	});
+	$('#bilaaljs').click(function(){
+		$('#username').html('Bilaal');
+		$.getScript( "js/bilaal.js", function( data, textStatus, jqxhr ) {
+			console.log( data ); // Data returned
+			console.log( textStatus ); // Success
+			console.log( jqxhr.status ); // 200
+			console.log( "Load was performed." );
+		});
+	});
+	$('#sofyanjs').click(function(){
+		$('#username').html('Sofyan');
+		$.getScript( "js/sofyan.js", function( data, textStatus, jqxhr ) {
+			console.log( data ); // Data returned
+			console.log( textStatus ); // Success
+			console.log( jqxhr.status ); // 200
+			console.log( "Load was performed." );
+		});
+	});
+});
+</script>
 
 
 

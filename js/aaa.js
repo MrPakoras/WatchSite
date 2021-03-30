@@ -1,13 +1,13 @@
-var start_date = new Date('02/02/2021').getTime(); // Edit this
-var init_start_date = new Date('Jan 01 2021').getTime();
+var start_date = new Date('01/22/2021').getTime(); // Edit this
+var init_start_date = new Date('Jan 21 2021').getTime();
 
 var now = new Date().getTime();
 var time_since = now - start_date;
 
-var eps_watched = 7; // Edit this
+var eps_watched = 18; // Edit this
 document.getElementById('eps_watched_text').innerHTML = '\xa0' + eps_watched + '\xa0';
 
-var eps_total = 13;
+var eps_total = 958;
 /*
 fetch('file://./ep.txt')
   .then(response => response.text())
