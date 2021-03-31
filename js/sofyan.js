@@ -18,7 +18,8 @@ var time_since = now - start_date;
 var eps_watched = 151; // Edit this
 document.getElementById('eps_watched_text').innerHTML = '\xa0' + eps_watched + '\xa0';
 
-var eps_total = 295; // Minus fillers
+var eps_total = 500;
+// var eps_total = 295; // Minus fillers
 /*
 fetch('file://./ep.txt')
   .then(response => response.text())
