@@ -9,13 +9,13 @@ document.getElementById('anime_name').innerHTML = '\xa0' + 'Naruto Shippuden' + 
 // root.style.setProperty('--colour_text','#ffa000');
 
 
-var start_date = new Date('04/06/2021').getTime(); // Edit this
+var start_date = new Date('04/07/2021').getTime(); // Edit this
 var init_start_date = new Date('Feb 28 2021').getTime();
 
 var now = new Date().getTime();
 var time_since = now - start_date;
 
-var eps_watched = 220; // Edit this
+var eps_watched = 242; // Edit this
 document.getElementById('eps_watched_text').innerHTML = '\xa0' + eps_watched + '\xa0';
 
 var eps_total = 500;
