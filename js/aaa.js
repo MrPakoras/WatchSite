@@ -8,13 +8,13 @@ document.getElementById('anime_name').innerHTML = '\xa0' + 'One Piece' + '\xa0';
 // root.style.setProperty('--colour_highlight','#8d73ff');
 // root.style.setProperty('--colour_text','#d7ceff');
 
-var start_date = new Date('01/22/2021').getTime(); // Edit this
+var start_date = new Date('04/07/2021').getTime(); // Edit this
 var init_start_date = new Date('Jan 21 2021').getTime();
 
 var now = new Date().getTime();
 var time_since = now - start_date;
 
-var eps_watched = 18; // Edit this
+var eps_watched = 90; // Edit this
 document.getElementById('eps_watched_text').innerHTML = '\xa0' + eps_watched + '\xa0';
 
 var eps_total = 958;
