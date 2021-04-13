@@ -15,7 +15,7 @@ var init_start_date = new Date('Apr 12 2021').getTime();
 var now = new Date().getTime();
 var time_since = now - start_date;
 
-var eps_watched = 4; // Edit this
+var eps_watched = 5; // Edit this
 document.getElementById('eps_watched_text').innerHTML = '\xa0' + eps_watched + '\xa0';
 
 var eps_total = 969;
