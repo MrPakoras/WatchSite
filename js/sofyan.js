@@ -9,7 +9,7 @@ document.getElementById('anime_name').innerHTML = '\xa0' + 'Naruto Shippuden' + 
 // root.style.setProperty('--colour_text','#ffa000');
 
 
-var start_date = new Date('04/12/2021').getTime(); // Edit this
+var start_date = new Date('04/13/2021').getTime(); // Edit this
 var init_start_date = new Date('Feb 28 2021').getTime();
 
 var now = new Date().getTime();
