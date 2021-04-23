@@ -8,13 +8,13 @@ document.getElementById('anime_name').innerHTML = '\xa0' + 'Payitaht Abdülhamid
 // root.style.setProperty('--colour_highlight','#ffa000');
 // root.style.setProperty('--colour_text','#ffa000');
 
-var start_date = new Date('04/17/2021').getTime(); // Edit this
+var start_date = new Date('04/23/2021').getTime(); // Edit this
 var init_start_date = new Date('Nov 16 2020').getTime();
 
 var now = new Date().getTime();
 var time_since = now - start_date;
 
-var eps_watched = 26; // Edit this
+var eps_watched = 32; // Edit this
 document.getElementById('eps_watched_text').innerHTML = '\xa0' + eps_watched + '\xa0';
 
 var eps_total = 665; // 40 minute episode (133 2 hr episodes as of 18/01/21)
