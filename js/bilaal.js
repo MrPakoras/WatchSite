@@ -8,16 +8,16 @@ document.getElementById('anime_name').innerHTML = '\xa0' + 'One Piece' + '\xa0';
 // root.style.setProperty('--colour_highlight','#00ff91');
 // root.style.setProperty('--colour_text','#6af4ba');
 
-var start_date = new Date('12/20/2021').getTime(); // Edit this
+var start_date = new Date('03/16/2022').getTime(); // Edit this
 var init_start_date = new Date('Apr 15 2020').getTime();
 
 var now = new Date().getTime();
 var time_since = now - start_date;
 
-var eps_watched = 696; // Edit this
+var eps_watched = 861; // Edit this
 document.getElementById('eps_watched_text').innerHTML = '\xa0' + eps_watched + '\xa0';
 
-var eps_total = 1004;
+var eps_total = 1013;
 /*
 fetch('file://./ep.txt')
   .then(response => response.text())
